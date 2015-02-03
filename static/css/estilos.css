@@ -1,0 +1,205 @@
+/*Utilities*/
+.u-title /*Utilidad: Este estilo aplica a todas las etiquetas h2-*/
+{
+	color:#00DBFF;
+	/*font-size: 1.5em; 24px*/
+	font-weight: 400; /*normal*/
+	text-align: center;
+	border: 3px double #00DBFF;
+	margin: 1em 3.5em;
+	padding: 0.1em 0;
+
+}
+/*Header*/
+.Header
+{
+	margin-top: 3.75em;
+	background: url('../images/background2.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; /*ocupa todo el ancho de la pagina*/
+	text-align: center;
+	padding-top: 1.2em;
+	padding-bottom: 1.2em;
+	
+}
+
+.Header-imageContainer
+{
+	margin: 0;
+}
+.Header-image
+{
+	border-radius: 50%;
+	border: 6px solid rgba(205, 194, 163, 0.69);
+	/*padding: 0.5em;*/
+	width: 160px;
+	height: 160px;
+}
+
+.Header-name, .Header-link
+{
+	text-shadow: 2px 2px 8px rgba(27, 23, 23, 0.95);
+}
+
+.Header-link
+{
+	color:black;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: 300;
+
+}
+.Header-name
+{
+	color:rgba(205, 236, 216, 0.42);
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0;
+}
+
+
+
+.Header-imageDescription
+{
+	
+}
+
+/*MainMenu*/
+.MainMenu
+{
+	background: #1E1E1E;
+	height: 3.75em;
+	left: 0; /*left 0 y right 0 coloca el elemento con todo el ancho*/
+	position: fixed;
+	right: 0;
+	text-align: center;
+	top:0;
+	z-index: 1;
+
+}
+
+.MainMenu-item
+{
+	
+	display: inline-block;
+
+}
+
+.MainMenu-link
+{
+	color: white;
+	/*font-weight: bold; Negrita */
+	text-decoration: none;
+	line-height: 3.75em; /*Para centrar verticalmente y tiene que recibir el mismo valor que el alto del padre, que es MainMenu*/
+	margin-right: 1.5em;
+}
+
+.MainMenu-link:hover
+{
+	color: #00DBFF;
+
+}
+
+.MainMenu-list
+{
+	margin: 0;
+	padding: 0; /*Son margen y sin padding*/
+	
+
+}
+
+/*Profile*/
+.Profile
+{
+	text-align: center;
+	/*font-style: italic;*/
+}
+
+.Profile-link
+{
+	background: orange;
+	border-radius: 2em;
+	color: white;
+	text-decoration: none;
+	padding:0.5em 1em;
+	margin-right: 0.5em;
+}
+
+/*Work*/
+.Work
+{
+	text-align: center;
+}
+/*Footer*/
+.Footer
+{
+	background: url('../images/footer-fade.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*margin-bottom: 500px;*/
+	padding: 2em 0 .5em 0;
+	text-align: center;
+
+}
+
+.Footer-form
+{
+	
+ 	text-align: center;
+ 	display: inline-block; /*para que tomen el tamaño del contenido*/
+ 	padding-bottom: 1em;
+}
+
+.Footer-left
+{
+	display: inline-block; /*para que tomen el tamaño del contenido*/
+	width: 32em; /*ancho*/
+	text-align: center;
+	vertical-align: top;
+	
+
+}
+
+.Footer-title
+{
+
+}
+
+.Footer-formInput, .Footer-formTextarea
+{
+	background: white;
+	border: 1px solid #00DBFF;
+	border-radius: .5em;
+	display: block;
+	margin-bottom: 1em;
+	padding: .2em;
+	/*Para centrar los elementos block se hace con margenes*/
+	margin: 0 auto 1em;
+
+}
+
+.Footer-formTextarea
+{
+	resize: none; /*para que no se redimencione*/
+}
+
+.Footer-formButton
+{
+	background: orange;
+	border: none;
+	border-radius: .5em;
+	color: white;
+	padding: .5em 1em;
+}
+
+.Footer-copy
+{
+	font-size: 12px;
+}
+
+
+
+
+
