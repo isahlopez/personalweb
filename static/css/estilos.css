@@ -1,3 +1,59 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-gjill6');
+	src:url('../fonts/icomoon.eot?#iefix-gjill6') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-gjill6') format('woff'),
+		url('../fonts/icomoon.ttf?-gjill6') format('truetype'),
+		url('../fonts/icomoon.svg?-gjill6#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-google+:before {
+	content: "\ea88";
+	color: rgb(245, 137, 14);
+	margin-left: 0.1em;
+	position: relative;
+	top: 0.1em;
+}
+
+.icon-facebook:before {
+	content: "\ea8d";
+	padding-right: .5em;
+}
+
+.icon-instagram:before {
+	content: "\ea90";
+	padding-right: .5em;
+}
+
+.icon-twitter:before {
+	content: "\ea91";
+	padding-right: .5em;
+}
+
+.u-link:link{
+	color: blue;
+}
+
+.u-link:visited{
+	color: #ccc;
+}
+
 /*Utilities*/
 .u-title /*Utilidad: Este estilo aplica a todas las etiquetas h2-*/
 {
@@ -35,6 +91,15 @@
 	/*padding: 0.5em;*/
 	width: 160px;
 	height: 160px;
+	-webkit-transition:.5s; /*Tiempo en que ocurre la transicion*/
+	-moz-transition:.5s;
+}
+
+.Header-image:hover{
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg); /*mozilla*/
+	-o-transform:rotate(360deg); /*opera*/
+	-ms-transform:rotate(360deg);
 }
 
 .Header-name, .Header-link
@@ -126,11 +191,55 @@
 	margin-right: 0.5em;
 }
 
+.Profile-description
+{
+	font-weight:bold;
+	color: orange;
+}
+
 /*Work*/
 .Work
 {
 	text-align: center;
+
 }
+.Work-Flex
+{
+	display: -webkit-inline-flex;
+	
+}
+
+.Work-item
+{
+	background: #F0EFEF;
+	
+	-webkit-flex: initial;
+	flex: initial;
+	width:350px;
+	min-width: 100px;
+	margin: auto;
+	margin: 0 0.9em;
+	color: orange;
+	
+	
+}
+
+.Work-itemContent
+{
+	color: black;
+	text-align: justify;
+}
+
+.Work-itemContent-detalle{
+	color: black;
+	text-decoration: none;
+	text-align: left;
+
+}
+
+
+
+
 /*Footer*/
 .Footer
 {
